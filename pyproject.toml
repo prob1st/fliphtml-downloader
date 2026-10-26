@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fliphtml-downloader"
+version = "1.0.0"
+description = "Download public FlipHTML5 flipbooks as PDF / images / CBZ from the terminal"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "prob1st" }]
+keywords = ["fliphtml5", "flipbook", "downloader", "pdf", "cbz"]
+dependencies = [
+    "requests>=2.31",
+    "Pillow>=10.0",
+    "img2pdf>=0.5",
+    "wasmtime>=20.0",
+]
+
+[project.scripts]
+fliphtml-downloader = "fliphtml_downloader:main"
+
+[tool.setuptools]
+py-modules = ["fliphtml_downloader"]
