@@ -7,6 +7,8 @@
 **FlipHTML5** flipbook'larını terminalden indirin: sayfa görselleri + tek **PDF** (isterseniz **CBZ**).
 Tarayıcı yok, Node.js yok — saf Python.
 
+> 🌐 **Web sürümü / Web version:** https://fliphtml-downloader-xi.vercel.app — kurulum yapmadan tarayıcıda indir!
+>
 > 🇬🇧 English documentation below · [Türkçe](#-türkçe) · [English](#-english)
 
 ---
